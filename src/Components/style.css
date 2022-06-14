@@ -1,0 +1,55 @@
+.grabar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.grabar button{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.grabar button:hover{
+    background-color: rgb(131, 131, 131);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+video{
+    max-width: 50%;
+}
+
+.general{
+    height: 100vh;
+}
+
+#cursor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    mix-blend-mode: luminosity ;
+    background: rgba(192, 255, 160, .2);
+    border-radius: 50%;
+    transition: .01s;
+    pointer-events: none;
+  }
